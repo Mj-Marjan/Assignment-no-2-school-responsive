@@ -229,7 +229,7 @@ main{
  }
  .single-st-title{
     padding-left: 40px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     width: 80%;
  }
@@ -281,6 +281,88 @@ main{
     text-align: center;
     margin: 40px 0;
 }
+/* footer style css */
+footer{
+    background-color: #01ACFD;
+}
+
+.footer-content{
+    justify-content: space-around;
+   
+    padding: 123px 228px 174px 140px;
+}
+.footer-discription{
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.img-title{
+    display: flex;
+}
+.footer-img{
+    filter: hue-rotate(90deg);
+    width: 28%;
+    height: 99px;
+    padding-top: 43px;
+}
+.footer-title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.footer-main-discription{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+    margin-top: 0px;
+    width: 380px;
+}
+
+.footer-links{
+    width: 100%;
+   text-align: end;
+   margin-top: 25px;
+   margin-right: -70px;
+}
+.footer-link-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.footer-sub-link{
+    list-style: none;
+    text-align: start;
+    margin-left: 160px;
+}
+.foot-link{
+    margin-bottom: 15px;
+}
+.flinks{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-icon{
+    width: 100%;
+  margin-left: 200px;
+  text-align: center;
+  margin-top: 20px;
+}
+.icon-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+     
+}
+.foot-icon{
+    list-style: none;
+    gap: 10px;
+}
+
 
 
 
@@ -370,6 +452,38 @@ main{
      .our-story{
         font-size: 1.6rem;
      }
+     .footer-content{
+        flex-direction: column;
+        padding: 0;
+     }
+     .footer-links{
+        width: 100%;
+       text-align: start;
+       margin-top: 0px;
+       margin-right: 0px;
+    }
+    .footer-main-discription{
+        margin-left: 20px;
+    }
+    .footer-link-title{
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+    .footer-sub-link{
+        margin-left: -18px;
+    }
+    .footer-icon{
+        width: 100%;
+      margin-left: 0px;
+      text-align: start;
+      margin-top: 0px;
+    }
+    .icon-title{
+        margin-left: 20px;
+    }
+    .foot-icon{
+        margin-left: -21px;
+    }
 }
 
 
