@@ -98,6 +98,9 @@
 .bannar-img{
     width: 100%;
 }
+#ban-btn{
+    margin-top: 24px;
+}
 /* standard section styles */
 main{
     background-image: url(assets/bg.png);
@@ -118,9 +121,9 @@ main{
     text-align: center;
     align-items: center;
     width: 367px;
-    height: 476px;
+    height: 380px;
     padding: 40px 0px;
-    border-radius: 10px;
+    border-radius: 18px;
     background-color: #fff;
 }
 .card1{
@@ -173,11 +176,111 @@ main{
 .text-btn3{
     color: #8700FF;
 }
-
- .hide{
-    display: none;
+/* story chapter styls */
+ .storys{
+    max-width: 100%;
+    align-items: center;
+    box-shadow: inset 33px -144px 659px -152px rgba(254, 163, 0, 1);
+    background: url(assets/bg.png);
+ }
+ .our-story{
+    text-align: center;
+    margin: 60px 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+ }
+ .story-contant{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding-bottom: 40px;
+ }
+ .single-story{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+ }
+ .single-st-img{
+    width: 100%;
+    
  }
 
+ .single-st-btn{
+     
+    padding: 15px 19px;
+    background-color: #3CD8E8;
+    color: #fff;
+    border-radius: 47px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+     
+    /* margin: 360px -533px; */
+ }
+ #s-btn{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 30px;
+ }
+ .single-st-title{
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 80%;
+ }
+ .single-st-discription{
+    padding-left: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    width: 80%;
+ }
+ .multiple-storys{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 15px;
+    width: 100%;
+ }
+ .multi-story{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+ }
+ .multi-btn{
+    position: relative;
+    padding: 10px 19px;
+    background-color: #95B226;
+    color: #fff;
+    border-radius: 47px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+ }
+ #m-btn{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 30px;
+ }
+ .blu-btn{
+    background-color: #5D58F0;
+ }
+ .multi-title{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+ }
+.view-btn{
+    text-align: center;
+    margin: 40px 0;
+}
 
 
 
@@ -186,7 +289,8 @@ main{
 @media screen and (max-width: 576px) {
     .nav-links, 
     .nav-title,
-    .nav-btn {
+    .nav-btn,
+    .single-story {
         display: none
     }
     .icon-nav-btn, .nav-horizotal{
@@ -194,7 +298,7 @@ main{
     }
     .nav-horizotal{
         background-color: #FEA301;
-        width: 90%;
+        width: 99%;
     }
     .icon-nav-btn{
         font-size: 40px;
@@ -224,6 +328,9 @@ main{
         font-size: 0.85rem;
         padding: 0 10px;
     }
+    .bannar-btn{
+        margin-top: 20px;
+    }
     .standard-card{
         width: 300px;
        
@@ -233,6 +340,35 @@ main{
     }
      .nav-btn, .bannar-btn{
         padding: 10px 20px;
+     }
+     
+     .storys{
+        box-shadow: inset 0px -173px 185px -152px rgba(254, 163, 0, 1)
+     }
+     .multiple-storys{
+        width: 100%;
+     }
+     .multi-story{
+        width: 100%;
+     }
+     .multi-img{
+        width: 100%;
+     }
+     .multi-btn{
+        font-size: 0.5rem;
+        font-weight: 400;
+     }
+     #m-btn{
+        margin-top: -15px;
+        margin-left: 20px;
+     }
+     .multi-title{
+        font-weight: bold;
+        font-size: 0.5rem;
+        width: 80%;
+     }
+     .our-story{
+        font-size: 1.6rem;
      }
 }
 
