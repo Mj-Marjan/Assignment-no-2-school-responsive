@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 .quicksand{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: 100px;
+    font-weight: 600;
     font-style: normal;
   }
   body{
     max-width: 1440px;
     margin: 0 auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
   }
   /* header-navbar-styles */
   .bg-light{
@@ -71,6 +79,7 @@
 .bannar-title{
     font-size: 3.5rem;
     font-weight: 700;
+    width: 95%;
 }
 .bannar-discription{
     font-size: 1.25rem;
@@ -89,8 +98,85 @@
 .bannar-img{
     width: 100%;
 }
+/* standard section styles */
+main{
+    background-image: url(assets/bg.png);
+}
+.standard-title{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.standard-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.standard-card{
+    text-align: center;
+    align-items: center;
+    width: 367px;
+    height: 476px;
+    padding: 40px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.card1{
+    box-shadow: inset 0px 98px 36px -29px rgb(222 245 255 / 1);
+    border: 1px solid #DEF5FF;
+}
+.card2{
+    box-shadow: inset 0px 98px 36px -29px rgba(255, 244, 220, 1);
+    border: 1px solid #FFF4DC;
+}
+.card3{
+    box-shadow: inset 0px 98px 36px -29px rgba(242, 232, 255, 1);
+    border: 1px solid #F2E8FF;
+}
+ 
+.standard-subtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.standard-discription{
+    font-size: 0.9rem;
+    font-weight: 400px;
+    color: #808080;
+    /* width: 287px; */
+}
+.standard-btn{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding-bottom: 53px; */
+}
+.standard-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   padding: 80px 0 60px;
+}
+.standard-icon1{
+    padding: 10px;
+    background-color: #FEA301;
+    border-radius: 100%;
+    color: #ffffff;
+}
+.text-btn1{
+    color: #64C8FF;
+}
+.text-btn2{
+    color: #F0AA00;
+}
+.text-btn3{
+    color: #8700FF;
+}
 
-
+ .hide{
+    display: none;
+ }
 
 
 
@@ -108,34 +194,52 @@
     }
     .nav-horizotal{
         background-color: #FEA301;
-        width: 100%;
+        width: 90%;
     }
     .icon-nav-btn{
         font-size: 40px;
     }
     .navbar{
-        width: 400px;
-        padding-top: 10px;
+        
     }
-    .bannar{
+    .bannar, .standard-cards{
         flex-direction: column;
-        align-items: center;
+       
     }
     .bannar-img{
         order: -1;
+        width: 100%;
     }
     .bannar-contant{
         text-align: center;
-        padding-top: 20px;
+        padding: 12px 0px 12px;
     }
     .bannar-title{
         font-size: 2rem;
         font-weight: bold;
-        width: 313px;
+        width: 100%;
         margin-bottom: 0;
     }
     .bannar-discription{
         font-size: 0.85rem;
-        margin: 18px 0;
+        padding: 0 10px;
     }
+    .standard-card{
+        width: 300px;
+       
+    }
+    .standard-icon{
+        display: none;
+    }
+     .nav-btn, .bannar-btn{
+        padding: 10px 20px;
+     }
 }
+
+
+
+
+
+
+
+ 
