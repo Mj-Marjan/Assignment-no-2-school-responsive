@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
+
 .quicksand{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -30,7 +26,6 @@
     align-items: center;
     margin: 20px 0;
   }
-.nav-links{}
 .nav-item{
     list-style: none;
     padding-left: 32px;
@@ -60,6 +55,10 @@
     font-size: 1.25rem;
     font-weight: 500;
     color: #ffffff;
+}
+.nav-link-btn{
+    text-decoration: none;
+    color: #fff;
 }
 .icon-nav-btn{
     display: none;
@@ -112,7 +111,6 @@ main{
     font-weight: bold;
 }
 .standard-cards{
-    display: flex;
     align-items: center;
     justify-content: center;
     gap: 28px;
@@ -138,7 +136,6 @@ main{
     box-shadow: inset 0px 98px 36px -29px rgba(242, 232, 255, 1);
     border: 1px solid #F2E8FF;
 }
- 
 .standard-subtitle{
     font-size: 1.5rem;
     font-weight: bold;
@@ -147,19 +144,17 @@ main{
     font-size: 0.9rem;
     font-weight: 400px;
     color: #808080;
-    /* width: 287px; */
 }
 .standard-btn{
     font-size: 0.9rem;
     font-weight: bold;
     text-decoration: none;
-    /* padding-bottom: 53px; */
 }
 .standard-icon{
     display: flex;
     justify-content: center;
     gap: 10px;
-   padding: 80px 0 60px;
+    padding: 80px 0 60px;
 }
 .standard-icon1{
     padding: 10px;
@@ -175,6 +170,16 @@ main{
 }
 .text-btn3{
     color: #8700FF;
+}
+/* marquee style section */
+.marquee{
+    width: 100%;
+    border: 2px solid #F0AA00;
+    border-radius: 16px;
+    background-color: #3CD8E8;
+}
+.marquee-ditails{
+    color: #fff;
 }
 /* story chapter styls */
  .storys{
@@ -207,11 +212,9 @@ main{
  }
  .single-st-img{
     width: 100%;
-    
  }
 
  .single-st-btn{
-     
     padding: 15px 19px;
     background-color: #3CD8E8;
     color: #fff;
@@ -219,8 +222,6 @@ main{
     font-size: 1rem;
     font-weight: 500;
     border: none;
-     
-    /* margin: 360px -533px; */
  }
  #s-btn{
     position: relative;
@@ -296,9 +297,6 @@ footer{
     margin: 0 auto;
     display: block;
 }
-.img-title{
-    display: flex;
-}
 .footer-img{
     filter: hue-rotate(90deg);
     width: 28%;
@@ -318,7 +316,6 @@ footer{
     margin-top: 0px;
     width: 380px;
 }
-
 .footer-links{
     width: 100%;
    text-align: end;
@@ -340,7 +337,6 @@ footer{
     margin-bottom: 15px;
 }
 .flinks{
-    
     text-decoration: none;
     color: #fff;
     font-size: 1.25rem;
@@ -348,15 +344,14 @@ footer{
 }
 .footer-icon{
     width: 100%;
-  margin-left: 200px;
-  text-align: center;
-  margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 20px;
 }
 .icon-title{
     font-size: 1.6rem;
     font-weight: bold;
-    color: #fff;
-     
+    color: #fff; 
 }
 .foot-icon{
     list-style: none;
@@ -364,15 +359,13 @@ footer{
 }
 
 
-
-
-
 /* Responsive media query */
 @media screen and (max-width: 576px) {
     .nav-links, 
     .nav-title,
     .nav-btn,
-    .single-story {
+    .single-story,
+    .marquee {
         display: none
     }
     .icon-nav-btn, .nav-horizotal{
@@ -384,9 +377,6 @@ footer{
     }
     .icon-nav-btn{
         font-size: 40px;
-    }
-    .navbar{
-        
     }
     .bannar, .standard-cards{
         flex-direction: column;
@@ -415,7 +405,6 @@ footer{
     }
     .standard-card{
         width: 300px;
-       
     }
     .standard-icon{
         display: none;
@@ -458,9 +447,9 @@ footer{
      }
      .footer-links{
         width: 100%;
-       text-align: start;
-       margin-top: 0px;
-       margin-right: 0px;
+        text-align: start;
+        margin-top: 0px;
+        margin-right: 0px;
     }
     .footer-main-discription{
         margin-left: 20px;
@@ -474,9 +463,9 @@ footer{
     }
     .footer-icon{
         width: 100%;
-      margin-left: 0px;
-      text-align: start;
-      margin-top: 0px;
+        margin-left: 0px;
+        text-align: start;
+        margin-top: 0px;
     }
     .icon-title{
         margin-left: 20px;
@@ -484,6 +473,8 @@ footer{
     .foot-icon{
         margin-left: -21px;
     }
+    
+     
 }
 
 
