@@ -475,6 +475,10 @@ footer{
         margin-left: -21px;
     }
     
+    .view-btn{
+        width: 80%;
+        margin-left: 30px;
+    }
      
 }
 
