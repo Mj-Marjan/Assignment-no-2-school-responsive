@@ -364,8 +364,7 @@ footer{
     .nav-links, 
     .nav-title,
     .nav-btn,
-    .single-story,
-    .marquee {
+    .single-story{
         display: none
     }
     .icon-nav-btn, .nav-horizotal{
@@ -478,6 +477,9 @@ footer{
     .view-btn{
         width: 80%;
         margin-left: 30px;
+    }
+    .marquee{
+        width: 90%;
     }
      
 }
